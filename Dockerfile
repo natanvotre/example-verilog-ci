@@ -22,5 +22,6 @@ RUN python3.8 -m venv /opt/venv \
     && . /opt/venv/bin/activate \
     && pip3 install -r /opt/requirements.txt
 
+ENV VENV=/opt/venv
+
 WORKDIR /opt/verilog_project
-COPY . .

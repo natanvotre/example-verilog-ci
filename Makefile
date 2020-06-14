@@ -1,5 +1,5 @@
 # Makefile
-VENV_SITE_PACKAGES=$(PWD)/venv/lib/python3.8/site-packages
+VENV_SITE_PACKAGES=$(VENV)/lib/python3.8/site-packages
 
 TOPLEVEL_LANG = verilog
 VERILOG_SOURCES = $(shell pwd)/test.v
