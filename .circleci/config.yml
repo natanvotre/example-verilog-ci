@@ -8,7 +8,7 @@ jobs:
       VENV: /opt/venv
     steps:
       - checkout
-      - run: sh test.sh
+      - run: make test
 
 workflows:
   version: 2
