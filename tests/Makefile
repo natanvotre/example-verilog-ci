@@ -2,7 +2,7 @@
 VENV_SITE_PACKAGES=$(VENV)/lib/python3.8/site-packages
 
 TOPLEVEL_LANG = verilog
-VERILOG_SOURCES = $(shell pwd)/../register.v
+VERILOG_SOURCES = $(shell pwd)/../*.v
 TOPLEVEL = dff
 MODULE = test-case
 
